@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  color: #fff;
+  font-family: Arial;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #1e293b;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #38bdf8;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.grid span {
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  transition: all 0.33s ease;
+}
+
+.grid span:hover {
+  box-shadow: 0 0 12px #38bdf8;
+  background: #24334d;
+}
+
+.project {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.project-note {
+  text-align: center;
+  margin-top: 10px;
+  color: #38bdf8;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #1e293b;
+  margin-top: 20px;
+}
+
+.contact-form {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+.contact-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #38bdf8;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.33s;
+}
+
+.contact-form button:hover {
+  background: #0ea5e9;
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  color: #38bdf8;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.whatsapp-link {
+  color: #38bdf8;
+  text-align: center;
+  margin-top: 10px;
+  display: block;
+}
+.project-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: all 0.33s;
+}
+
+.project-card:hover {
+  box-shadow: 0 0 12px #38bdf8;
+}
+
+.project-info {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.show-btn {
+  padding: 8px 15px;
+  background: #38bdf8;
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.33s;
+}
+
+.show-btn:hover {
+  background: #0ea5e9;
+  color: #fff;
+}
